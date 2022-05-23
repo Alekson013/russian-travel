@@ -1,0 +1,35 @@
+.intro {
+  padding: 114px 0 0 0;
+  margin: 0 148px 0 148px;
+  display: flex;
+  flex-direction: column;
+}
+.intro__title {
+  max-width: 750px;
+  max-height: 58px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+}
+.intro__subtitle {
+  margin: 0;
+  padding: 40px 0 33px 0;
+  max-width: 750px;
+  max-height: 208px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+.intro__list {
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+
+}
+.intro__list_item {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}

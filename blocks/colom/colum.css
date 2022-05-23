@@ -1,0 +1,23 @@
+.tho__columns {
+  display: flex;
+}
+.tho__column {
+  display: flex;
+  flex-direction: column;
+}
+.tho__column_heading {
+}
+.tho__column_images {
+  width: 460px;
+height: 460px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.tho__column_url {
+}
+.link {
+}
+.text {
+}

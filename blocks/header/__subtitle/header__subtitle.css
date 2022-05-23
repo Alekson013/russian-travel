@@ -1,0 +1,10 @@
+.header__subtitle {
+  width: 630px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 32px auto 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
