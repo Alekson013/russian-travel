@@ -1,0 +1,36 @@
+.footer {
+  margin: 92px 48px 24px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+.footer__nav {
+  margin: 0;
+  padding: 0;
+
+}
+.nav__menu {
+  display: flex;
+  gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  justify-content: flex-start;
+  padding: 0;
+}
+.nav__menu_item {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+}
+.man {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
