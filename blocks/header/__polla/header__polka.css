@@ -1,6 +1,9 @@
 .header__polka {
   object-fit: cover;
   margin: 64px auto 0px;
-  width: 984px;
-  height: 615px;
+  min-width: 320px;
+  min-height: 200px;
+  max-width: 984px;
+  max-height: 615px;
+  width: 100%;
 }

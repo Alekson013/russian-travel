@@ -13,4 +13,6 @@
 .img__cards{
   max-width: 284px;
   max-height: 213px;
+  min-width: 150px;
+  min-height: 150px;
 }
