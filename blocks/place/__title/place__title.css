@@ -3,8 +3,12 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
+  padding: 0;
 }
-
+.place__website__url-heading-pading{
+  margin: 0;
+  padding-top: 106px;
+}
 @media (max-width : 1024px) {
   .place__title {
     font-size: 7.031vw;
