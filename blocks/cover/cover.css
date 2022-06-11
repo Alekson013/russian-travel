@@ -1,33 +1,18 @@
-.cover{
-  margin: 92px 48px 0 48px;
-}
+.cover {
+  margin: 0 auto;
+  max-width: 1184px;
+  position: relative;
+ }
 
-.cover__image {
-  background-image: url(../../img/station.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 740px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-}
-.cover__title {
-  width: 560px;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  text-align: center;
-  color: #fff;
-}
-.cover__subtitle {
-  width: 360px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #fff;
+
+ @media (max-width : 768px) {
+   .cover {
+     margin-top: 88px;
+    }
+  }
+
+@media (max-width : 425px) {
+  .cover {
+    margin-top: 64px;
+  }
 }

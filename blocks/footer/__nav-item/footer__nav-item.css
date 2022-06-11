@@ -1,0 +1,22 @@
+.footer__nav-item {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  transition: opacity 0.25s;
+}
+
+.footer__nav-item:hover {
+  opacity: 0.5;
+}
+
+.footer__nav-item:last-child{
+  margin-right: 0;
+}
+@media (max-width: 570px) {
+  .footer__nav-item {
+    flex-direction: column;
+  }
+}
