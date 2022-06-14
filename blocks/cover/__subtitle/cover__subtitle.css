@@ -6,19 +6,18 @@
   line-height: 22px;
   text-align: center;
   text-decoration: none;
-  z-index: 2;
   color: white;
 }
 
 @media (max-width: 1024px) {
   .cover__subtitle {
-    margin-bottom: 195px;
+    margin-bottom: 235px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__subtitle {
-    margin-bottom: 115px;
+    margin-bottom: 245px;
   }
 }
 
@@ -41,6 +40,12 @@
 
 @media (max-width: 320px) {
   .cover__subtitle {
-    margin-bottom: 33px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 0px;
+    max-width: 80%;
   }
 }
+

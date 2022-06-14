@@ -1,0 +1,31 @@
+.place__website-heading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  padding: 31px 0 12px 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: Inter;
+}
+@media (max-width : 768px) {
+  .place__website-heading {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    padding: 0 0 8px 0;
+  }
+}
+
+@media (max-width : 700px) {
+  .place__website-heading {
+    padding-top: 32px;
+  }
+}
+@media (max-width: 320px) {
+  .place__website-heading {
+    margin: 0;
+    padding: 0 0 12px 0;
+  }
+}

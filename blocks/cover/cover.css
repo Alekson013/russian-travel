@@ -2,17 +2,27 @@
   margin: 0 auto;
   max-width: 1184px;
   position: relative;
+  height: 740px;
  }
 
-
- @media (max-width : 768px) {
-   .cover {
-     margin-top: 88px;
-    }
+ @media (max-width : 1024px) {
+  .cover {
+    margin-top: 64px;
+    height: 640px;
   }
+}
 
+@media (max-width : 786px) {
+  .cover {
+    margin-top: 90px;
+    margin-bottom: 88px;
+    height: 480px;
+  }
+}
 @media (max-width : 425px) {
   .cover {
     margin-top: 64px;
+    height: 200px;
+    margin-bottom: 28px;
   }
 }

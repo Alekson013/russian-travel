@@ -1,10 +1,23 @@
 .footer__nav{
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 18px;
+  display: flex;
 }
 @media screen and (max-width: 568px) {
-  .footer__links {
+  .footer__nav {
       flex-direction: column;
       gap: 32px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__nav{
+    flex-direction: column;
+    display: flex;
+    gap: 3px 0;
+    align-items: flex-start;
+
   }
 }

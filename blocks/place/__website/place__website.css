@@ -1,5 +1,15 @@
 .place__website {
   color: white;
+  font-family: Inter;
 }
 
-
+@media (max-width: 768px) {
+  .place__website {
+    margin-left: -8px;
+  }
+}
+@media (max-width: 320px) {
+  .place__website {
+    margin-left: 16px;
+  }
+}

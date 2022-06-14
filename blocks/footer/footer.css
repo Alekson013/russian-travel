@@ -3,27 +3,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 92px 48px 24px ;
+  padding: 90px 45px 24px ;
+  text-align: center;
 }
 
 @media  screen and (max-width: 1186px) {
   .footer {
-      margin: 0 48px;
+      padding: 92px 48px 24px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .footer {
-      gap: 48px;
-      margin: 0 24px;
+      gap: 18px;
+      padding: 58px 24px 0;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .footer {
+      gap: 18px;
+      padding: 0 24px 0;
+      margin-top: -130px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .footer {
-      flex-direction: column;
-      justify-content: flex-start;
-      gap: 48px;
-      margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 0 0 16px;
+    align-items: flex-start;
   }
 }

@@ -1,0 +1,11 @@
+.place__link {
+  color: white;
+  transition: opacity 0.8s;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: Inter;
+}

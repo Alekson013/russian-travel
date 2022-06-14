@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <title>Путешествие по России</title>
   </head>
   <body class="page">
     <header class="header">
       <img src="./img/__logo.svg" alt="Логотип" class="header__logo" />
       <div class="header__lang">
-        <a href="" class="header__lang-link header__lang-link_active">ru</a>
-        <a href="" class="header__lang-link">en</a>
+        <a href="" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="" class="header__lang-link">En</a>
       </div>
     </header>
     <main class="content">
@@ -53,28 +54,57 @@
         </ol>
       </section>
       <section class="photo-grid">
-        <img src="./img/grid1.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid2.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid3.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid4.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid5.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid6.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid7.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid8.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid9.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid10.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid11.jpg" alt="" class="photo-grid__item" />
-        <img src="./img/grid12.jpg" alt="" class="photo-grid__item" />
+        <img
+          src="./img/grid1.jpg"
+          alt="Вид из окна поезда"
+          class="photo-grid__item"
+        />
+        <img src="./img/grid2.jpg" alt="Горы" class="photo-grid__item" />
+        <img
+          src="./img/grid3.jpg"
+          alt="Волк на сене"
+          class="photo-grid__item"
+        />
+        <img
+          src="./img/grid4.jpg"
+          alt="Лес в тумане"
+          class="photo-grid__item"
+        />
+        <img
+          src="./img/grid5.jpg"
+          alt="Машина на льду"
+          class="photo-grid__item"
+        />
+        <img src="./img/grid6.jpg" alt="Берег моря" class="photo-grid__item" />
+        <img
+          src="./img/grid7.jpg"
+          alt="Горы в снегу "
+          class="photo-grid__item"
+        />
+        <img
+          src="./img/grid8.jpg"
+          alt="Знак пешехода"
+          class="photo-grid__item"
+        />
+        <img src="./img/grid9.jpg" alt="Холмы" class="photo-grid__item" />
+        <img
+          src="./img/grid10.jpg"
+          alt="Поля и горы"
+          class="photo-grid__item"
+        />
+        <img src="./img/grid11.jpg" alt="Горы" class="photo-grid__item" />
+        <img
+          src="./img/grid12.jpg"
+          alt="Горы в тумане"
+          class="photo-grid__item"
+        />
       </section>
-      <div class="places">
+      <section class="places">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__website-heading">URL</p>
-            <a
-              href="http://park-kosa.ru"
-              class="place__website__link"
-              target="_blank"
+            <a href="http://park-kosa.ru" class="place__link" target="_blank"
               >park-kosa.ru</a
             >
           </div>
@@ -101,12 +131,12 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title place__title-top">Кольский</h2>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__website-heading">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              class="place__website__link"
+              class="place__link"
               target="_blank"
               >National Geographic</a
             >
@@ -130,12 +160,12 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title place__title-top">Алтай</h2>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__website-heading">URL</p>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-              class="place__website__link"
+              class="place__link"
               target="_blank"
               >Facebook</a
             >
@@ -158,12 +188,12 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title place__title-top">Зимний Байкал</h2>
-          <div class="place__website place__website__url-heading-pading">
+          <h2 class="place__title">Зимний Байкал</h2>
+          <div class="place__website">
             <p class="place__website-heading">URL</p>
             <a
               href="https://vk.com/baikalmile"
-              class="place__website__link"
+              class="place__link"
               target="_blank"
               >https://vk.com/baikalmile</a
             >
@@ -185,13 +215,10 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title place__title-top">Карелия</h2>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__website-heading">url</p>
-            <a
-              href="http://vodlozero.ru"
-              class="place__website__link"
-              target="_blank"
+            <a href="http://vodlozero.ru" class="place__link" target="_blank"
               >http://vodlozero.ru/</a
             >
           </div>
@@ -214,7 +241,7 @@
             </p>
           </div>
         </article>
-      </div>
+      </section>
       <section class="cover">
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
@@ -227,22 +254,20 @@
           </p>
         </a>
       </section>
-      <footer class="footer">
-        <nav class="footer__nav">
-          <a href="https://yandex.ru/maps" class="footer__nav-item">Карты</a>
-          <a href="https://yandex.ru/pogoda" class="footer__nav-item">Погода</a>
-          <a href="https://rasp.yandex.ru" class="footer__nav-item"
-            >Расписание</a
-          >
-          <a href="https://calendar.yandex.ru" class="footer__nav-item"
-            >Календарь</a
-          >
-          <a href="https://travel.yandex.ru" class="footer__nav-item"
-            >Путешествия</a
-          >
-        </nav>
-        <p class="footer__copyright">© 2022 Alekson Takhmazyan</p>
-      </footer>
     </main>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <a href="https://yandex.ru/maps" class="footer__nav-item">Карты</a>
+        <a href="https://yandex.ru/pogoda" class="footer__nav-item">Погода</a>
+        <a href="https://rasp.yandex.ru" class="footer__nav-item">Расписание</a>
+        <a href="https://calendar.yandex.ru" class="footer__nav-item"
+          >Календарь</a
+        >
+        <a href="https://travel.yandex.ru" class="footer__nav-item"
+          >Путешествия</a
+        >
+      </nav>
+      <p class="footer__copyright">© 2022 Alekson Takhmazyan</p>
+    </footer>
   </body>
 </html>
