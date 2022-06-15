@@ -6,6 +6,13 @@
   grid-gap: 18px;
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__nav {
+      gap: 1px 0;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .footer__nav {
       flex-direction: column;

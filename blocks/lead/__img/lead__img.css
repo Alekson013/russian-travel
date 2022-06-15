@@ -1,16 +1,20 @@
 .lead__img {
   width: 100%;
   object-fit: contain;
+  height: 615px;
+}
+@media (max-width: 1024px) {
+  .lead__img {
+    height: 580px;
+  }
 }
 @media (max-width: 786px) {
   .lead__img {
-    width: 100%;
-    height: 470px;
+    height: 480px;
   }
 }
 @media (max-width: 320px) {
   .lead__img {
-    width: 100%;
     height: 200px;
     margin-top: 40px;
   }

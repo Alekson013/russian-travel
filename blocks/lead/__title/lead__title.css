@@ -8,12 +8,6 @@
   font-family: Inter;
 }
 
-@media (max-width: 720px) {
-  .lead__title {
-    font-size: calc(12vw);
-    line-height: normal;
-  }
-}
 
 @media (max-width: 320px) {
   .lead__title {

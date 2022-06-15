@@ -17,12 +17,14 @@
     margin-top: 90px;
     margin-bottom: 88px;
     height: 480px;
+    max-width: 768px;
   }
 }
 @media (max-width : 425px) {
   .cover {
-    margin-top: 64px;
     height: 200px;
-    margin-bottom: 28px;
+    margin-bottom: 12px;
+    max-width: 320px;
+    margin-top: 0;
   }
 }
