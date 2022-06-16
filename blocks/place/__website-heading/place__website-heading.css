@@ -11,10 +11,8 @@
 }
 @media (max-width : 768px) {
   .place__website-heading {
-    font-size: 12px;
-    line-height: 12px;
     letter-spacing: 2px;
-    padding: 0 0 14px 0;
+    padding: 0 0 12px 0;
   }
 }
 
@@ -26,6 +24,6 @@
 @media (max-width: 320px) {
   .place__website-heading {
     margin: 0;
-    padding: 0 0 12px 0;
+    padding: 0 0 13px 0;
   }
 }

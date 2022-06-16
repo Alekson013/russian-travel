@@ -1,5 +1,4 @@
 .place {
-  margin: 0 ;
   display: grid;
   grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
   grid-gap: 48px 40px;
@@ -18,7 +17,8 @@
 
 @media (max-width : 768px) {
   .place {
-    margin: 0 0 72px 0;
+    grid-gap: 48px 6px;
+    margin-bottom: 71px;
   }
 }
 
@@ -30,8 +30,8 @@
 @media (max-width : 320px) {
   .place {
     grid-template-columns: 1fr;
-    grid-gap: 32px 0px;
-    margin: 0 0 50px 0;
+    grid-gap: 34px 0px;
+    margin: 0 0 56px 0;
     padding: 0 0 0 0;
   }
 }

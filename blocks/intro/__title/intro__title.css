@@ -7,9 +7,16 @@
   padding: 0 0 40px 0;
   font-family: Inter;
 }
+
 @media (max-width : 1024px) {
   .intro__title{
-    margin: -7px 0 0 0 ;
+    max-width: 1024px;
+  }
+}
+@media (max-width : 768px) {
+  .intro__title{
+    max-width: 768px;
+    padding: 0 0 35px 0px;
   }
 }
 @media (max-width : 425px) {
@@ -22,5 +29,7 @@
   .intro__title{
     font-size: 32px;
     line-height: 35px;
+    max-width: 250px;
+    padding: 0 0 40px 0px;
   }
 }
