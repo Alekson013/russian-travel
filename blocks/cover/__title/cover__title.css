@@ -10,9 +10,18 @@
   justify-content: center;
   padding-top: 240px;
 }
+@media (max-width: 568px) {
+  .cover__title {
+    font-size: 33px;
+    line-height: 35px;
+    padding: 0;
+    max-width: 234px;
+    margin-bottom: 7px;
+    margin-top: 88px;
+  }
+}
 
-
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .cover__title {
     font-size: 33px;
     line-height: 35px;
