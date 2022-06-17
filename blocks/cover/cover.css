@@ -13,8 +13,7 @@
 @media (max-width : 786px) {
   .cover {
     margin-top: 90px;
-    margin-bottom: 88px;
-    max-width: 768px;
+    margin-bottom: 80px;
   }
 }
 @media (max-width : 425px) {

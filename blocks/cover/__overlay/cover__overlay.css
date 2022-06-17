@@ -31,8 +31,12 @@
 
 @media (max-width: 1024px) {
   .cover__overlay {
-    max-width: 1024px;
     height: 640px;
+  }
+}
+@media (max-width: 768px) {
+  .cover__overlay {
+    height: 495px;
   }
 }
 @media (max-width: 540px) {

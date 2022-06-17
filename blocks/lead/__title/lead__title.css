@@ -32,5 +32,6 @@
   .lead__title {
     font-size: 40px;
     line-height: 44px;
+    padding: 0 0 0px 0px;
   }
 }
