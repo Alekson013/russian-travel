@@ -6,7 +6,7 @@
 
 
 @media (max-width : 1024px) {
-  .places{
+  .places {
     padding-right: 48px;
     padding-left: 48px;
     max-width: 928px;
@@ -15,7 +15,7 @@
 
 @media (max-width : 768px) {
   .places {
-    margin: 86px 45px 90px 24px;
+    margin: 86px 24px 90px 24px;
     max-width: 720px;
     padding: 0;
   }
@@ -26,9 +26,10 @@
     padding: 0;
   }
 }
+
 @media (max-width : 320px) {
   .places {
-    margin: 61px 0px 0 0px;
+    margin: 65px 0px 0 0px;
     max-width: 320px;
   }
 }

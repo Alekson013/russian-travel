@@ -1,12 +1,14 @@
 .intro__list {
   margin: 0;
   list-style-type: none;
-  padding: 0 0 92px 0 ;
+  padding: 0 0 92px 0;
   font-size: 12px;
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
+  line-height: 18px;
 }
+
 @media (max-width: 320px) {
-  .intro__lis {
+  .intro__list {
     padding-bottom: 64px;
   }
 }

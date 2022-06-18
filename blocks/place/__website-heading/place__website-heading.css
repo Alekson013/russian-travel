@@ -7,8 +7,9 @@
   padding: 31px 0 12px 0;
   margin: 0;
   text-transform: uppercase;
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
+
 @media (max-width : 768px) {
   .place__website-heading {
     letter-spacing: 2px;
@@ -21,6 +22,7 @@
     padding-top: 32px;
   }
 }
+
 @media (max-width: 320px) {
   .place__website-heading {
     margin: 0;

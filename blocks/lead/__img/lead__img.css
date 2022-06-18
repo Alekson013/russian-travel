@@ -3,16 +3,19 @@
   object-fit: contain;
   height: 615px;
 }
+
 @media (max-width: 1024px) {
   .lead__img {
     height: 580px;
   }
 }
+
 @media (max-width: 786px) {
   .lead__img {
     height: 480px;
   }
 }
+
 @media (max-width: 350px) {
   .lead__img {
     height: 200px;

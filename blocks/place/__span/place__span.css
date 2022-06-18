@@ -1,0 +1,10 @@
+.place__span {
+  display: none;
+}
+
+
+@media (max-width : 425px) {
+  .place__span {
+    display: initial;
+  }
+}

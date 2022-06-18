@@ -3,48 +3,46 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 45px 24px ;
+  padding: 90px 45px 24px;
   text-align: center;
   max-width: 1184px;
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .footer {
-      padding: 92px 48px 24px;
-      max-width: 928px;
+    padding: 92px 48px 24px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .footer {
-      gap: 18px;
-      padding: 58px 24px 0;
+    gap: 18px;
+    padding: 58px 24px 0;
   }
 }
 
 @media screen and (max-width: 786px) {
   .footer {
-      gap: 18px;
-      padding: 0 24px 0;
-      margin-bottom: 24px;
-      max-width: 720px;
+    gap: 18px;
+    padding: 0 24px 0;
+    margin-bottom: 24px;
+    max-width: 720px;
   }
 }
+
 @media (max-width : 690px) {
-  .footer{
-    padding: 0 24px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-@media screen and (max-width: 568px) {
   .footer {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
     padding: 0;
     margin: 0 0 0 16px;
-    align-items: flex-start;
     max-width: 186px;
   }
 }

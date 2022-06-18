@@ -4,13 +4,15 @@
 }
 
 @media (max-width: 768px) {
-  .place__paragraps {
-    max-width: 352px;
-  }
+  .place__paragraps {}
 }
+
+@media (max-width: 395px) {
+  .place__paragraps {}
+}
+
 @media (max-width: 320px) {
   .place__paragraps {
     margin: 0 16px 0 16px;
-    max-width: 288px;
   }
 }

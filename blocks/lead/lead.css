@@ -11,8 +11,8 @@
 @media (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    margin: 0 auto ;
-    padding: 54px 0 0;
+    margin: 0 auto;
+    padding: 50px 0 0;
     padding-bottom: 86px;
   }
 }
