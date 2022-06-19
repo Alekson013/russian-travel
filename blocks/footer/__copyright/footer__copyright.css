@@ -11,11 +11,6 @@
 @media (max-width: 590px) {
   .footer__copyright {
     text-align: initial;
-  }
-}
-
-@media (max-width: 350px) {
-  .footer__copyright {
     margin-top: 28px;
     font-size: 14px;
     line-height: 14px;

@@ -9,3 +9,7 @@
   cursor: pointer;
   font-family: 'Inter', 'Arial', sans-serif;
 }
+
+.place__link:hover {
+  opacity: 0.8;
+}

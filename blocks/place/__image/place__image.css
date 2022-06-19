@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   background-position: center;
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {
