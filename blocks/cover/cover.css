@@ -6,7 +6,7 @@
 
 @media (max-width : 1024px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
     margin: 0 0 0 0;
   }
 }
@@ -15,14 +15,14 @@
   .cover {
     margin-top: 90px;
     margin-bottom: 90px;
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media (max-width : 425px) {
   .cover {
-    margin-bottom: 55px;
+    margin-bottom: 40px;
     margin-top: 0;
-    height: 200px;
+    min-height: 200px;
   }
 }

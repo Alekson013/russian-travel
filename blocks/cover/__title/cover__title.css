@@ -37,7 +37,7 @@
 
 @media (max-width: 350px) {
   .cover__title {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0;
   }
 }
